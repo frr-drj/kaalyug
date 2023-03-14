@@ -1,7 +1,16 @@
 # kaalyug
 The premium site of best education. 
  
-### To create an account, 
->>>1. Tap on signup
+### How To create an account ?
+>1. Tap on signup
+>2. In WhatsApp, Request for registration form
+>3. Send the screenshot of transaction (Re. 50 )
+>4. Enter the password and Continue...
 
+### How to get homework?
+>1. Get the site, and choose the "Premium" option
+>2. Choose the subject 
+>3. Verify your gmail/google account 
+>4. Choose the homework from the drive
 
+_for help contact to  <a href=" https://api.whatsapp.com/send/?phone=%2B13156422218&text&type=phone_number&app_absent=0">Signup</a>
