@@ -1,9 +1,11 @@
 # kaalyug
 Paid website, No unnecessary login access
 
+#Website :- [https://thedrjbot.github.io/kaalyug/] "Kaalyug"
+_Tap to visit the site_
+
 #Disclaimer
 >We don't take responsibility of any individual missusing the sources
-
  
 ### How To create an account ?
 >1. Tap on signup
