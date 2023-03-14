@@ -1,5 +1,7 @@
 # kaalyug
 The premium site of best education. 
  
-_To create an account_
+### To create an account, 
+>>>1. Tap on signup
+
 
