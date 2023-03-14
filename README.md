@@ -1,5 +1,9 @@
 # kaalyug
-The premium site of best education. 
+Paid website, No unnecessary login access
+
+#Disclaimer
+>We don't take responsibility of any individual missusing the sources
+
  
 ### How To create an account ?
 >1. Tap on signup
