@@ -13,4 +13,5 @@ The premium site of best education.
 >3. Verify your gmail/google account 
 >4. Choose the homework from the drive
 
-_for help contact to  <a href=" https://api.whatsapp.com/send/?phone=%2B13156422218&text&type=phone_number&app_absent=0">Signup</a>
+_for help contact to Whatsapp number:+13156422218_
+
