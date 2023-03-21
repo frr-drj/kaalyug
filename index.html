@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); 
+        *{ margin: 0; 
+        padding: 0; 
+        box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+         } 
+        body{
+         background-color: #ffe6ff;
+         } 
+        /* navigation bar */
+        nav{
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background: #1b1b1b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position:fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{     
+ webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent;
+    width: 100%;
+    height: 0vh;
+    margin-left: -100%;
+    display: block;
+    font-size: 30px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+}
+
+.hr{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.guide{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+   .profile{
+    width: 100%;
+    height: 90px;    
+    margin: 10px;
+    padding: 5px;
+}
+  .i{
+        border-radius: 50%;
+        height: 250px;
+        border: 2px solid black;
+        width: 250px;
+        margin: -19px;
+        margin-top: 20px;
+           }
+img{
+    width: 100%;
+}    
+label{
+    font-size: 28px;
+}
+ul{
+    padding-left: 200px;
+    margin-top: -20px;
+    list-style-type: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    color: #55acff;
+}
+.gy{
+    margin-top: 200px;
+}
+.cy{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 500;  
+    }
+    .dy{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 66px;
+    font-weight: 500px;
+    margin-left: 50px;
+    Color: grey;
+    }
+    .mm{
+    text-align: center;
+    font-size: 20px;
+}
+    </style>
+   <!-- link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.3"/>
+    <title>KAALYUG</title>
+</head>
+<body>
+    <nav>
+       <div class="logo">KAALYUG</div>               <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+              
+            <li><a href="login.html">LOGIN</a></li>
+           <li><a href="admin.html">ADMIN</a></li>
+         </ul>
+   </nav>
+    <div class="profile"></div>
+        
+         <div class="guide"> 
+     <div class="cy"><h1>KAALYUG INFO</h1><br>*IN DEVELOPMENT</div><div class="dy"><div class="mm"><h3>KAALYUG is the multi-usual website that promote the IT level. <br> We, the team KAALYUG and KAALYUG developer are cordially engaged to make a better age. We, the team KAALYUG offers the education tool for regional area per time via  source of hub. The KAALYUG is a pre-commerecial platform based on an organization through web classified app. </h3></div>   </div><hr class="hr">
+     <div class="profile"></div>
+        
+         <div class="guide"> 
+     <div class="cy"><h1>KAALYUG OFFICIALS</h1><br>For help (on WhatsApp chatt): <a href="https://chat.whatsapp.com/Gq6KDzarmV933lAC2pjxC8">KAALYUG DEVELOPERS</a><br>
+     For update: <a href="">   INSTA-THEKAALYUGOFFICIALS</a></div></div>
+<hr class="hr"> <div class="guide"> 
+     <div class="cy"><h1>KAALYUG DEVELOPERS</h1></div>
+     <!-- PROFILE DRJ -->
+     <div class="profile">
+        
+         <img src="10.jpg" class="i">  
+         <br><br> <h1>FOUNDER & DEVELOPER</h1>        
+         </div>
+        <label>
+            <ul>
+            <li>
+                <div class="dy"><div class="mm"><h3>DRJ</h3></div>   
+                </div>
+                </li>
+            <li>
+                <!-- INSTAGRAM -->
+                <i class="fa-brands fa-instagram"></i>
+    <a href="https://www.instagram.com/@thedrjbot"> THEDRJBOT</a>
+                </li>
+                <!-- Whatsapp -->
+                  <li><i class="fa-brands fa-whatsapp"></i>  <a href="https://api.whatsapp.com/send/?phone=%2B+13156422218&text&type=phone_number&app_absent=0">+1 (315) 642-2218</a></li>
+           <!-- GITHUB --><li>
+           <i class="fa-brands fa-github"></i>
+       <a href="https://github.com/thedrjunfiltered"> THEDRJBOT</a>
+       </li> 
+       <!-- Gmail -->
+       <li>
+           <i class="fa-regular fa-envelope"></i><a href="mailto: thedrjtalks@gmail.com"> THE DRJ</a>
+       </li>
+       </ul>
+       </label>
+      </div>
+     <div class="gy"><h1></h1></div>
+      <hr class="hr">
+     <!-- PROFILE Dx -->
+     <div class="profile">
+        
+         <img src="10.jpg" class="i">          
+         <br><br><h1>CEO & MANAGER</h1> </div>
+        <label>
+            <ul>
+            <li>
+                <div class="dy"><div class="mm"><h3>‽DX</h3></div>   
+                </div>
+                </li>
+            <li>
+                <!-- INSTAGRAM -->
+                <i class="fa-brands fa-instagram"></i>
+    <a href="https://instagram.com/prajwal_swarnkar?igshid=YWVjMmZiZjg="> THEDXBOT</a>
+                </li>
+                <!-- Whatsapp -->
+                  <li><i class="fa-brands fa-whatsapp"></i>  <a href="https://api.whatsapp.com/send/?phone=%2B9779825256347&text&type=phone_number&app_absent=0"> +977 982-5256347</a></li>
+           <!-- GITHUB --><li>
+           <i class="fa-brands fa-github"></i>
+       <a href="https://github.com/thedrjunfiltered"> THEDXBOT</a>
+       </li> 
+       <!-- Gmail -->
+       <li>
+           <i class="fa-regular fa-envelope"></i><a href="mailto: prajwal.swarnkar@gmail.com"> THEDXBOT</a>
+       </li>
+       </ul>
+       </label><br><br>
+      <hr class="hr">
+      <div class="profile">
+        <center><a style="font-size:40px; float:left;"href="https://api.whatsapp.com/send/?phone=%2B+13156422218&text&type=phone_number&app_absent=0"> HELP</a><a style="font-size:40px;"href="admin.html.html"></a>
+        </center>
+</body>
+</html>

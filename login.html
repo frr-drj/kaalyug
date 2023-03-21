@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+           @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 3px;
+  padding: 3px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+color: black;
+background: #ffe6ff;
+}
+ form{
+     margin: 150px;
+ }
+     a{
+      color: black;
+      font-family: 'Poppins', sans-serif;
+     } 
+     input[type=submit]{
+         background: grey;
+         border: 2px solid black;
+         height: 30px;
+         width: 95px;
+         color: white;
+         font-family: 'Poppins', sans-serif;
+     }
+     input[type=password],[type=text] {
+         background: white;
+         color: grey;
+         border: 2px solid black;
+         height: 30px;
+         width: 195px;
+         font-family: 'Poppins', sans-serif;
+         }
+        
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+	 <title>KAALYUG</title>
+    <!-- link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    
+
+	<form name="loginForm" onsubmit="return validateForm()" method="post">
+	    <label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Username"><br>
+		    <label for="password">Password:</label>
+		<input type="password" placeholder="Password" id="password" name="password"><p>
+<input type="submit" value="Login">
+	<p><br><br>
+	    <p style="font-size: 20px;"> <a href="https://wa.me/message/OUXFF7NJLCGCO1">Signup</a><br><br></p>
+   <a href="mailto: thedrjbot@gmail.com">Feedback</a>  
+</p>
+	</form>
+<script>
+		function validateForm() {
+			var username = document.forms["loginForm"]["username"].value;
+			var password = document.forms["loginForm"]["password"].value;
+			if (username == "HOMEWORK" && password == "kaalyug2") {
+				window.location.href = "home.html";
+				return true;
+			}
+			else {
+				window.location.href = "https://xhamster1.desi";
+				return false;
+			}
+		}
+	</script>
+</body>
+</html>
