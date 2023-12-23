@@ -1,7 +1,7 @@
 # kaalyug
 Paid website, No unnecessary login access
 
-#Website :- [https://thedrjbot.github.io/kaalyug/] "Kaalyug"
+#Website :- [https://frr-drj.github.io/kaalyug/] "Kaalyug"
 _Tap to visit the site_
 
 #Disclaimer
